@@ -1,0 +1,218 @@
+{
+  "id": "fe943c43-15df-4563-a4b7-eefa1fe0ccf5",
+  "version": "2.0",
+  "name": "Test shopping",
+  "url": "https://www.aboutyou.ee/",
+  "tests": [{
+    "id": "ca91394f-8a81-4a45-9e89-322e3ef346e6",
+    "name": "Test1",
+    "commands": [{
+      "id": "ae22ae94-0958-4a4a-9c6d-3ce360089183",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.aboutyou.ee/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf52247d-a5ca-4384-beb7-5ae18f8035b3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7750d818-2b57-48f5-8df4-30b33024894e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55209442-0350-4f83-99b4-61376d462eec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ny6379q:nth-child(7) .l1st1nuh",
+      "targets": [
+        ["css=.ny6379q:nth-child(7) .l1st1nuh", "css:finder"],
+        ["xpath=//main[@id='react-root']/header/div[4]/section/div/div/ul/li[7]/a/div", "xpath:idRelative"],
+        ["xpath=//li[7]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdd6e1fa-ad1d-4351-b7a1-23476b0f9519",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,383.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2c270dd-4a83-462c-a3a6-90f2f10c56d6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6087bf81-109e-467f-b549-5529c9b36296",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1u6ziwi-0 > .sc-1876d5f-0-Component",
+      "targets": [
+        ["css=.sc-1u6ziwi-0 > .sc-1876d5f-0-Component", "css:finder"],
+        ["xpath=(//img[@alt='Nike Sportswear Talvemantel, värv must: eest vaates'])[2]", "xpath:img"],
+        ["xpath=//section[@id='@aboutyou/router::SCROLL_ANCHOR']/div[2]/section/section[2]/div/ul/li/a/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55bab0f0-207e-4073-9b6f-c40af2b58e2b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c3e9a0d-7d41-415e-9746-6959b6d9cfcf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1e4589b-4578-4f5a-975e-247c68e36793",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20b337fb-d7a3-4f9c-8e5d-cf71a967fe46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-mln57-0 > .sc-122ag38-1",
+      "targets": [
+        ["css=.sc-mln57-0 > .sc-122ag38-1", "css:finder"],
+        ["xpath=//div[@id='page-content-wrapper']/section/div[2]/div/div/div/section[2]/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eb334d1-f5d6-495d-8cc6-67b50d78d5fa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-122ag38-1 > span",
+      "targets": [
+        ["css=.sc-122ag38-1 > span", "css:finder"],
+        ["xpath=//div[@id='page-content-wrapper']/section/div[2]/div/div/div/section[2]/div[2]/div/button/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd74e632-f2db-4cac-9eaf-0b7b79b751cd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-122ag38-1 > span",
+      "targets": [
+        ["css=.sc-122ag38-1 > span", "css:finder"],
+        ["xpath=//div[@id='page-content-wrapper']/section/div[2]/div/div/div/section[2]/div[2]/div/button/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "631daaa2-7453-4e22-862a-9738fea3e926",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-106ixz4-1:nth-child(2) .sc-1rstdue-8",
+      "targets": [
+        ["css=.sc-106ixz4-1:nth-child(2) .sc-1rstdue-8", "css:finder"],
+        ["xpath=//div[@id='page-content-wrapper']/section/div[2]/div/div/div/section[2]/div/div/div/ul/li[2]/div/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba3ac7ca-db83-4f35-941e-b7a180616d1f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-mln57-0 > .sc-122ag38-1",
+      "targets": [
+        ["css=.sc-mln57-0 > .sc-122ag38-1", "css:finder"],
+        ["xpath=//div[@id='page-content-wrapper']/section/div[2]/div/div/div/section[2]/div[2]/div/button/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfe679fd-8640-4426-a5e1-10039296274d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1a5796b-2673-43d6-971e-6d0a3f6b62ef",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-mln57-0 > .sc-122ag38-1",
+      "targets": [
+        ["css=.sc-mln57-0 > .sc-122ag38-1", "css:finder"],
+        ["xpath=//div[@id='page-content-wrapper']/section/div[2]/div/div/div/section[2]/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac4a6776-7852-4d55-8b3d-b77f96108f53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1b7fhg2-0",
+      "targets": [
+        ["css=.sc-1b7fhg2-0", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='page-content-wrapper']/div[3]/div/div[2]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kassasse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2905e98b-8dd9-481f-baa2-d54c59313619",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-1b7fhg2-0",
+      "targets": [
+        ["css=.sc-1b7fhg2-0", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='page-content-wrapper']/div[3]/div/div[2]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kassasse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed1d3772-bb04-4898-aca3-06044de13c80",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-1b7fhg2-0",
+      "targets": [
+        ["css=.sc-1b7fhg2-0", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='page-content-wrapper']/div[3]/div/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f79b84b9-3e98-4e2c-a7e8-bd1ad569132e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,606)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "73a84903-a3bb-4be2-97b5-06531a1481b7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ca91394f-8a81-4a45-9e89-322e3ef346e6"]
+  }],
+  "urls": ["https://www.aboutyou.ee/"],
+  "plugins": []
+}
