@@ -138,3 +138,50 @@ SELECT * FROM meals where meals.petTypeId = 2;
 
 /* select all toys that matches a given pet type  */
 SELECT * FROM toys where toys.petTypeId = 3;
+
+/* owner information, pet information, toys and meals into same table*/
+SELECT * FROM owners 
+INNER JOIN pets 
+INNER JOIN toys 
+Inner Join meals
+ON owners.id = pets.ownerId 
+AND pets.petTypeId = toys.petTypeId
+And pets.petTypeId = meals.petTypeId;
+
+/* select: owner information, pet information, toys and meals that matches given pet*/
+SELECT owners.ownerName, owners.age as ownerAge, pets.petName, pets.age as petAge,
+toys.toyName, toys.material, meals.mealName
+FROM owners 
+INNER JOIN pets 
+INNER JOIN toys 
+Inner join meals
+ON owners.id = pets.ownerId 
+AND pets.petTypeId = toys.petTypeId
+And pets.petTypeId = meals.petTypeId
+WHERE pets.Id = 1;
+
+/* select all meals and pets */
+SELECT * FROM meals 
+FULL JOIN petTypes
+ON petTypeId = petTypes.id;
+
+
+/* select all pets that have owners remove pets and owners result that are not connected */
+SELECT * FROM owners 
+INNER JOIN pets 
+INNER JOIN toys 
+ON owners.id = pets.ownerId 
+AND pets.petTypeId = toys.petTypeId;
+
+/* show pets and toys for one owner */
+SELECT * FROM owners 
+INNER JOIN pets 
+INNER JOIN toys 
+ON owners.id = pets.ownerId 
+AND pets.petTypeId = toys.petTypeId
+WHERE owners.id = 3;
+
+/*example for deleting by Id*/
+SELECT * FROM owners ;
+
+DELETE FROM owners WHERE id = 20;
