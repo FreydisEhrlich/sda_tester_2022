@@ -9,3 +9,4 @@ I am Freydis Ehrlich and I'm a junior software tester. This project contains exe
 3. backlog_test_Jira_25.10.png - example of sprints made in Jira
 4. pet_managment.sql - database for pet managment in MySQL
 5. Test shopping.side - test of shopping recorded with Selenium IDE
+6. src - contains eleven examples of Java code in the beginner level
